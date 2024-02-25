@@ -1978,7 +1978,7 @@
                             "Username_text",
                             "Text",
                             "=",
-                            "\"Welcome Back \"+ Username_Var"
+                            "\"Welcome \"+ Username_Var"
                           ]
                         },
                         {
@@ -5581,6 +5581,12 @@
             },
             {
               "type": {
+                "value": "Firebase::Logout"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
                 "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
               },
               "parameters": [
@@ -5653,22 +5659,6 @@
             },
             {
               "type": {
-                "value": "Firebase::Logout"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Welcome _Screen\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "ModVarGlobalTxt"
               },
               "parameters": [
@@ -5685,6 +5675,16 @@
                 "Username_Var",
                 "=",
                 "\"Unkown\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Welcome _Screen\"",
+                ""
               ]
             }
           ]
