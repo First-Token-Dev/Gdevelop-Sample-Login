@@ -1,0 +1,22 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.sampe.Firebasesignup"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.sampe.Firebasesignup"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.sampe.Firebasesignup"
+    }
+  }
+}
