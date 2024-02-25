@@ -71,7 +71,7 @@ gdjs.Game_95screenCode.GDHome_9595btnObjects4= [];
 gdjs.Game_95screenCode.GDHome_9595btnObjects5= [];
 
 
-gdjs.Game_95screenCode.asyncCallback10818252 = function (runtimeScene, asyncObjectsList) {
+gdjs.Game_95screenCode.asyncCallback12180228 = function (runtimeScene, asyncObjectsList) {
 {runtimeScene.getGame().getVariables().getFromIndex(3).setString("Unkown");
 }{runtimeScene.getGame().getVariables().getFromIndex(2).setString("Unkown");
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Welcome _Screen", false);
@@ -85,14 +85,14 @@ gdjs.Game_95screenCode.eventsList0 = function(runtimeScene, asyncObjectsList) {
 const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_95screenCode.asyncCallback10818252(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_95screenCode.asyncCallback12180228(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Game_95screenCode.asyncCallback10818396 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Game_95screenCode.asyncCallback12179732 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("logout_btn"), gdjs.Game_95screenCode.GDlogout_9595btnObjects4);
 
 {for(var i = 0, len = gdjs.Game_95screenCode.GDlogout_9595btnObjects4.length ;i < len;++i) {
@@ -112,14 +112,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.Game_95screenCode.GDlogout_9595btnObjects3) asyncObjectsList.addObject("logout_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_95screenCode.asyncCallback10818396(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_95screenCode.asyncCallback12179732(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Game_95screenCode.asyncCallback9277332 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Game_95screenCode.asyncCallback12142524 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("logout_btn"), gdjs.Game_95screenCode.GDlogout_9595btnObjects3);
 
 {for(var i = 0, len = gdjs.Game_95screenCode.GDlogout_9595btnObjects3.length ;i < len;++i) {
@@ -139,14 +139,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.Game_95screenCode.GDlogout_9595btnObjects2) asyncObjectsList.addObject("logout_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_95screenCode.asyncCallback9277332(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_95screenCode.asyncCallback12142524(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Game_95screenCode.asyncCallback10227084 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Game_95screenCode.asyncCallback12143420 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("logout_btn"), gdjs.Game_95screenCode.GDlogout_9595btnObjects2);
 
 {for(var i = 0, len = gdjs.Game_95screenCode.GDlogout_9595btnObjects2.length ;i < len;++i) {
@@ -165,7 +165,7 @@ gdjs.Game_95screenCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Game_95screenCode.GDlogout_9595btnObjects1) asyncObjectsList.addObject("logout_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_95screenCode.asyncCallback10227084(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_95screenCode.asyncCallback12143420(runtimeScene, asyncObjectsList)));
 }
 }
 

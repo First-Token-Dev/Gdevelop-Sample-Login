@@ -91,7 +91,7 @@ gdjs.Login_95ScreenCode.GDHome_9595btnObjects5= [];
 gdjs.Login_95ScreenCode.GDHome_9595btnObjects6= [];
 
 
-gdjs.Login_95ScreenCode.asyncCallback9975668 = function (runtimeScene, asyncObjectsList) {
+gdjs.Login_95ScreenCode.asyncCallback12165300 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Notice_Text"), gdjs.Login_95ScreenCode.GDNotice_9595TextObjects6);
 
 {for(var i = 0, len = gdjs.Login_95ScreenCode.GDNotice_9595TextObjects6.length ;i < len;++i) {
@@ -110,14 +110,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.Login_95ScreenCode.GDNotice_9595TextObjects5) asyncObjectsList.addObject("Notice_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback9975668(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback12165300(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Login_95ScreenCode.asyncCallback10829884 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Login_95ScreenCode.asyncCallback12167852 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Notice_Text"), gdjs.Login_95ScreenCode.GDNotice_9595TextObjects5);
 
 {for(var i = 0, len = gdjs.Login_95ScreenCode.GDNotice_9595TextObjects5.length ;i < len;++i) {
@@ -134,7 +134,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.Login_95ScreenCode.GDNotice_9595TextObjects4) asyncObjectsList.addObject("Notice_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback10829884(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback12167852(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -189,7 +189,7 @@ gdjs.Login_95ScreenCode.eventsList1(runtimeScene, asyncObjectsList);} //End of s
 }
 
 
-};gdjs.Login_95ScreenCode.asyncCallback10827380 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Login_95ScreenCode.asyncCallback12163860 = function (runtimeScene, asyncObjectsList) {
 
 { //Subevents
 gdjs.Login_95ScreenCode.eventsList2(runtimeScene, asyncObjectsList);} //End of subevents
@@ -204,14 +204,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.Login_95ScreenCode.GDNotice_9595TextObjects3) asyncObjectsList.addObject("Notice_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback10827380(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback12163860(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Login_95ScreenCode.asyncCallback10827044 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Login_95ScreenCode.asyncCallback12163308 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Notice_Text"), gdjs.Login_95ScreenCode.GDNotice_9595TextObjects3);
 
 {for(var i = 0, len = gdjs.Login_95ScreenCode.GDNotice_9595TextObjects3.length ;i < len;++i) {
@@ -230,14 +230,14 @@ gdjs.Login_95ScreenCode.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Login_95ScreenCode.GDNotice_9595TextObjects2) asyncObjectsList.addObject("Notice_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback10827044(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback12163308(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Login_95ScreenCode.asyncCallback10839052 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Login_95ScreenCode.asyncCallback12177020 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Notice_Text"), gdjs.Login_95ScreenCode.GDNotice_9595TextObjects3);
 
 {for(var i = 0, len = gdjs.Login_95ScreenCode.GDNotice_9595TextObjects3.length ;i < len;++i) {
@@ -253,14 +253,14 @@ gdjs.Login_95ScreenCode.eventsList5 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Login_95ScreenCode.GDNotice_9595TextObjects2) asyncObjectsList.addObject("Notice_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback10839052(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback12177020(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Login_95ScreenCode.asyncCallback10831900 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Login_95ScreenCode.asyncCallback12154692 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Notice_Text"), gdjs.Login_95ScreenCode.GDNotice_9595TextObjects2);
 
 {for(var i = 0, len = gdjs.Login_95ScreenCode.GDNotice_9595TextObjects2.length ;i < len;++i) {
@@ -276,7 +276,7 @@ gdjs.Login_95ScreenCode.eventsList6 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Login_95ScreenCode.GDNotice_9595TextObjects1) asyncObjectsList.addObject("Notice_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback10831900(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Login_95ScreenCode.asyncCallback12154692(runtimeScene, asyncObjectsList)));
 }
 }
 

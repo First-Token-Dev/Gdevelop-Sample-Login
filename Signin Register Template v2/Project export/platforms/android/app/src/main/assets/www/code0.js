@@ -260,6 +260,20 @@ gdjs.copyArray(runtimeScene.getObjects("login_Register_btn"), gdjs.Welcome_32_95
 
 };gdjs.Welcome_32_95ScreenCode.eventsList3 = function(runtimeScene) {
 
+{
+
+
+
+}
+
+
+{
+
+
+
+}
+
+
 };gdjs.Welcome_32_95ScreenCode.eventsList4 = function(runtimeScene) {
 
 {
@@ -359,20 +373,6 @@ if (isConditionTrue_0) {
 
 
 gdjs.Welcome_32_95ScreenCode.eventsList3(runtimeScene);
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-
-
 }
 
 

@@ -111,7 +111,7 @@ gdjs.Register_95ScreenCode.GDHome_9595btnObjects5= [];
 gdjs.Register_95ScreenCode.GDHome_9595btnObjects6= [];
 
 
-gdjs.Register_95ScreenCode.asyncCallback9112204 = function (runtimeScene, asyncObjectsList) {
+gdjs.Register_95ScreenCode.asyncCallback12094708 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Welcome _Screen", false);
 }}
 gdjs.Register_95ScreenCode.eventsList0 = function(runtimeScene) {
@@ -122,14 +122,14 @@ gdjs.Register_95ScreenCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback9112204(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback12094708(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Register_95ScreenCode.asyncCallback10746020 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Register_95ScreenCode.asyncCallback12099020 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Register_btn"), gdjs.Register_95ScreenCode.GDRegister_9595btnObjects6);
 
 {for(var i = 0, len = gdjs.Register_95ScreenCode.GDRegister_9595btnObjects6.length ;i < len;++i) {
@@ -147,14 +147,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save Register_btn as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback10746020(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback12099020(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Register_95ScreenCode.asyncCallback9654212 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Register_95ScreenCode.asyncCallback12098756 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Notice_Text"), gdjs.Register_95ScreenCode.GDNotice_9595TextObjects5);
 
 {for(var i = 0, len = gdjs.Register_95ScreenCode.GDNotice_9595TextObjects5.length ;i < len;++i) {
@@ -175,14 +175,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 /* Don't save Notice_Text as it will be provided by the parent asyncObjectsList. */
 /* Don't save Register_btn as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback9654212(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback12098756(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Register_95ScreenCode.asyncCallback10242548 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Register_95ScreenCode.asyncCallback12098268 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.firebaseTools.auth.userManagement.sendVerificationEmail();
 }
 { //Subevents
@@ -199,14 +199,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 for (const obj of gdjs.Register_95ScreenCode.GDNotice_9595TextObjects3) asyncObjectsList.addObject("Notice_Text", obj);
 /* Don't save Register_btn as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback10242548(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback12098268(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Register_95ScreenCode.asyncCallback10747780 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Register_95ScreenCode.asyncCallback12092612 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Email_Entry"), gdjs.Register_95ScreenCode.GDEmail_9595EntryObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Notice_Text"), gdjs.Register_95ScreenCode.GDNotice_9595TextObjects3);
@@ -239,7 +239,7 @@ for (const obj of gdjs.Register_95ScreenCode.GDEmail_9595EntryObjects2) asyncObj
 for (const obj of gdjs.Register_95ScreenCode.GDNotice_9595TextObjects2) asyncObjectsList.addObject("Notice_Text", obj);
 for (const obj of gdjs.Register_95ScreenCode.GDPassword_9595EntryObjects2) asyncObjectsList.addObject("Password_Entry", obj);
 for (const obj of gdjs.Register_95ScreenCode.GDRegister_9595btnObjects2) asyncObjectsList.addObject("Register_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback10747780(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback12092612(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -291,7 +291,7 @@ gdjs.Register_95ScreenCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Register_95ScreenCode.asyncCallback10765028 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Register_95ScreenCode.asyncCallback12101436 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Notice_Text"), gdjs.Register_95ScreenCode.GDNotice_9595TextObjects3);
 
 {for(var i = 0, len = gdjs.Register_95ScreenCode.GDNotice_9595TextObjects3.length ;i < len;++i) {
@@ -307,14 +307,14 @@ gdjs.Register_95ScreenCode.eventsList6 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Register_95ScreenCode.GDNotice_9595TextObjects2) asyncObjectsList.addObject("Notice_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback10765028(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback12101436(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Register_95ScreenCode.asyncCallback10722868 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Register_95ScreenCode.asyncCallback12102148 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Notice_Text"), gdjs.Register_95ScreenCode.GDNotice_9595TextObjects3);
 
 {for(var i = 0, len = gdjs.Register_95ScreenCode.GDNotice_9595TextObjects3.length ;i < len;++i) {
@@ -330,14 +330,14 @@ gdjs.Register_95ScreenCode.eventsList7 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Register_95ScreenCode.GDNotice_9595TextObjects2) asyncObjectsList.addObject("Notice_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback10722868(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback12102148(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Register_95ScreenCode.asyncCallback10764644 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Register_95ScreenCode.asyncCallback12105620 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Notice_Text"), gdjs.Register_95ScreenCode.GDNotice_9595TextObjects2);
 
 {for(var i = 0, len = gdjs.Register_95ScreenCode.GDNotice_9595TextObjects2.length ;i < len;++i) {
@@ -353,7 +353,7 @@ gdjs.Register_95ScreenCode.eventsList8 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Register_95ScreenCode.GDNotice_9595TextObjects1) asyncObjectsList.addObject("Notice_Text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback10764644(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Register_95ScreenCode.asyncCallback12105620(runtimeScene, asyncObjectsList)));
 }
 }
 
